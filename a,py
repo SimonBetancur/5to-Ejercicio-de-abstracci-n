@@ -1,0 +1,4 @@
+x = {}
+
+z = type(x)
+print(z)
