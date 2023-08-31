@@ -54,24 +54,24 @@ class Visita:
         self.__registro = ""
         self.__notas = ""
         self.__indices = {}
-        
-        def verFecha(self):
-            return self.__fecha
-        def verRegistro(self):
-            return self.__registro
-        def verNotas(self):
-            return self.__notas
-        def verIndice(self):
-            return self.__indices
-        
-        def asignarFecha(self,f):
-            self.__fecha = f
-        def asignarRegistro(self,r):
-            self.__registro = r
-        def asignarNotas(self,o):
-            self.__notas = o
-        def asignarIndice(self,i):
-            self.__indices = i
+    
+    def verFecha(self):
+        return self.__fecha
+    def verRegistro(self):
+        return self.__registro
+    def verNotas(self):
+        return self.__notas
+    def verIndice(self):
+        return self.__indices
+    
+    def asignarFecha(self,f):
+        self.__fecha = f
+    def asignarRegistro(self,r):
+        self.__registro = r
+    def asignarNotas(self,o):
+        self.__notas = o
+    def asignarIndice(self,i):
+        self.__indices = i
 
 """
 class Indices:
